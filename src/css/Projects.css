@@ -1,0 +1,27 @@
+.projects-container {
+  background-color: rgb(78, 78, 78);
+  min-height: 95vh;
+  width: 100%;
+  scroll-snap-align: start;
+  scroll-margin-top: 7vh;
+  scroll-snap-type: y mandatory;
+}
+
+.card {
+  overflow: hidden;
+  background-color: rgb(94, 94, 94) !important;
+  color: white;
+  width: 20rem !important;
+  height: 35rem;
+  margin: 5vh;
+}
+
+.card-image {
+  width: 20rem;
+  height: 25rem;
+}
+
+.btn-github {
+  height: 3rem;
+  padding-bottom: 4vh;
+}

@@ -1,0 +1,12 @@
+.skills-container {
+  background-color: rgb(90, 90, 90);
+  min-height: 95vh;
+  width: 100%;
+  scroll-margin-top: 7vh;
+  scroll-snap-align: start;
+  scroll-margin-top: 7vh;
+  scroll-snap-type: y mandatory;
+}
+.logos {
+  width: 20vh;
+}

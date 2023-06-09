@@ -1,0 +1,16 @@
+.contact-container {
+  background-color: rgb(126, 126, 126);
+  min-height: 93vh;
+  width: 100%;
+  scroll-snap-align: start;
+  scroll-margin-top: 7vh;
+  scroll-snap-type: y mandatory;
+}
+
+.form-container {
+  margin-top: 10vh;
+}
+
+.form-text {
+  width: 25rem;
+}

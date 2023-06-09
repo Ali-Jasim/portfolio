@@ -1,0 +1,26 @@
+.main-container {
+  overflow: auto;
+  background-color: rgb(63, 63, 63);
+  height: 95vh;
+  scroll-snap-align: start;
+  scroll-margin-top: 7vh;
+  scroll-snap-type: y mandatory;
+}
+
+.headshot {
+  width: 200px;
+  margin-bottom: 5vh;
+  margin-top: 10vh;
+}
+
+.description {
+  margin-bottom: 5vh;
+  margin-top: 15vh;
+  margin-left: 5vh;
+
+  color: rgb(160, 160, 160);
+}
+
+.title {
+  font-size: 500%;
+}
