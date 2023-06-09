@@ -27,11 +27,11 @@ const Contact = () => {
                         <Form ref={form} onSubmit={submit}>
                             <Form.Group className="form-text mb-3">
                                 <Form.Label className='text-white'>Name</Form.Label>
-                                <Form.Control name="user_name" placeholder="Enter email" />
+                                <Form.Control name="user_name" placeholder="Name" />
                             </Form.Group>
                             <Form.Group className="mb-3">
                                 <Form.Label className='text-white'>Email address</Form.Label>
-                                <Form.Control name="user_email" placeholder="name" />
+                                <Form.Control name="user_email" placeholder="Email Address" />
                             </Form.Group>
                             <Form.Group className="mb-3">
                                 <Form.Label className='text-white' >Message</Form.Label>
