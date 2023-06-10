@@ -1,37 +1,24 @@
 import React from 'react'
-import { Container, Row, Col, Button } from 'react-bootstrap'
+import { Navbar, Nav } from 'react-bootstrap'
 import "../css/Header.css"
 
 
 const Header = () => {
     return (
         <div className='header-container'>
-            <Container fluid>
-                <Row>
-                    <Col xs={2} md={5} lg={7}>
-                        <h1>Ali Jasim</h1>
-                    </Col>
-
-                    <Col className='mt-2 mb-2 p-0'>
-                        <Button size="lg" variant='outline-dark' className='text-white' href='#main'>Main</Button>
-                    </Col>
-                    <Col className='mt-2 mb-2 pr-1'>
-                        <Button size="lg" variant='outline-dark' className='text-white' href='#projects'>Projects</Button>
-                    </Col>
-                    <Col className='mt-2 mb-2 p-0'>
-                        <Button size="lg" variant='outline-dark' className='text-white' href='#skills'>Skills</Button>
-                    </Col>
-                    <Col className='mt-2 mb-2 p-0'>
-                        <Button size="lg" variant='outline-dark' className='text-white' href='#contact'>Contact</Button>
-                    </Col>
-
-                </Row>
-
-
-
-
-            </Container>
-        </div>
+            <Navbar variant='dark' expand='md'>
+                <Navbar.Brand href='#main'><h1 className='mx-3'>Ali jasim</h1></Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" data-bs-target='#basic-navbar-nav' />
+                <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
+                    <Nav>
+                        <Nav.Link className='px-5' href='#main'><h4>Home</h4></Nav.Link>
+                        <Nav.Link className='px-5' href='#projects'><h4>Projects</h4></Nav.Link>
+                        <Nav.Link className='px-5' href='#skills'><h4>Skills</h4></Nav.Link>
+                        <Nav.Link className='px-5' href='#contact'><h4>Contact</h4></Nav.Link>
+                    </Nav>
+                </Navbar.Collapse>
+            </Navbar>
+        </div >
 
     )
 }
