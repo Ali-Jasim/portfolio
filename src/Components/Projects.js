@@ -22,7 +22,7 @@ const Projects = () => {
                                 <Card.Body>
                                     <Card.Title>rl-routing</Card.Title>
                                     <Card.Text>
-                                        Implementation of a Reinforcement Learning environment that simulated random congestion in routers while delivering packets
+                                        Implementation of a Reinforcement Learning environment that simulated random congestion in routers while delivering packets.
                                     </Card.Text>
                                     <Button href="https://github.com/Ali-Jasim/rl-routing" className='btn-github' size="lg" variant="dark">
                                         <p>Source Code <BsGithub style={{ height: "20px" }} /></p>
@@ -61,13 +61,7 @@ const Projects = () => {
                             </Card>
                         </Col>
                     </Row>
-
                 </Container>
-
-            </Row>
-
-            <Row>
-
             </Row>
         </Container>
     )

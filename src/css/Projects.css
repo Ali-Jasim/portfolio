@@ -12,13 +12,13 @@
   background-color: rgb(94, 94, 94) !important;
   color: white;
   width: 20rem !important;
-  height: 35rem;
+  height: 30rem;
   margin: 5vh;
 }
 
 .card-image {
   width: 20rem;
-  height: 25rem;
+  height: 20rem;
 }
 
 .btn-github {
