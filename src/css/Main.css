@@ -1,7 +1,8 @@
 .main-container {
-  overflow: auto;
+  overflow: visible;
   background-color: rgb(63, 63, 63);
-  height: 95vh;
+  min-height: 95vh;
+
   scroll-snap-align: start;
   scroll-margin-top: 7vh;
   scroll-snap-type: y mandatory;
@@ -16,7 +17,7 @@
 .description {
   margin-bottom: 5vh;
   margin-top: 15vh;
-  margin-left: 5vh;
+  margin-left: 15vh;
 
   color: rgb(160, 160, 160);
 }
